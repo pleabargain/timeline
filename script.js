@@ -1,37 +1,181 @@
 document.addEventListener('DOMContentLoaded', function() {
     const data = {
         "timelines": {
-            "timeline1": [
-                {
-                    "time": "yesterday",
-                    "event": "event1",
-                    "context": "context1",
-                    "actor": "actor1"
-                },
-                {
-                    "time": "now",
-                    "event": "event2",
-                    "context": "context2",
-                    "actor": "actor2"
-                }
-                // ... additional events can be added in this format
-            ],
-            "timeline2": [
-                {
-                    "time": "tomorrow",
-                    "event": "event1",
-                    "context": "context1",
-                    "actor": "actor1"
-                },
-                {
-                    "time": "day after tomorrow",
-                    "event": "event2",
-                    "context": "context2",
-                    "actor": "actor2"
-                }
-                // ... additional events can be added in this format
-            ]
-            ,
+
+        "pizzaPartyStory": [
+            {
+                "time": "Twelve weeks ago",
+                "event": "Idea conception",
+                "context": "Susan, the office manager, had thought of the idea for a pizza party as a team-building exercise.",
+                "actor": "Office Manager, Susan Clark",
+                "tense": "Past Perfect"
+            },
+            {
+                "time": "Ten weeks ago",
+                "event": "Discussion with the team",
+                "context": "She discussed the idea with her team, and they loved it.",
+                "actor": "Team Member, John Doe",
+                "tense": "Past Simple"
+            },
+            {
+                "time": "Eight weeks ago",
+                "event": "Planning phase",
+                "context": "Susan was researching different pizza places and party ideas.",
+                "actor": "Susan Clark",
+                "tense": "Past Continuous"
+            },
+            {
+                "time": "recently",
+                "event": "Budget approval",
+                "context": "The management has approved the budget for the pizza party.",
+                "actor": "CEO, Emily White",
+                "tense": "Present Perfect"
+            },
+            {
+                "time": "now",
+                "event": "Finalizing the pizza order",
+                "context": "Susan is finalizing the pizza order, ensuring there are options for everyone.",
+                "actor": "Susan Clark",
+                "tense": "Present Continuous"
+            },
+            {
+                "time": "now",
+                "event": "Sending out invitations",
+                "context": "Susan sends out digital invitations to all her co-workers for the pizza party.",
+                "actor": "Susan Clark",
+                "tense": "Present Simple"
+            },
+            {
+                "time": "One week ago",
+                "event": "Confirmation of RSVPs",
+                "context": "She will confirm the final headcount based on the RSVPs received.",
+                "actor": "Susan Clark",
+                "tense": "Future Simple"
+            },
+            {
+                "time": "Five days ago",
+                "event": "Arranging party games",
+                "context": "Susan had been arranging fun party games to play during the event.",
+                "actor": "Susan Clark",
+                "tense": "Past Perfect Continuous"
+            },
+            {
+                "time": "Three days ago",
+                "event": "Finalizing the playlist",
+                "context": "She had been creating a playlist for the party, considering everyone's music preferences.",
+                "actor": "Team Member, Lisa Green",
+                "tense": "Past Perfect Continuous"
+            },
+            {
+                "time": "now",
+                "event": "Decoration planning",
+                "context": "Susan is currently picking up decorations for the party.",
+                "actor": "Susan Clark",
+                "tense": "Present Continuous"
+            },
+            {
+                "time": "later Today",
+                "event": "Party setup",
+                "context": "She will be setting up the party area with decorations and arranging tables.",
+                "actor": "Susan Clark",
+                "tense": "Future Continuous"
+            },
+            {
+                "time": "Tomorrow",
+                "event": "Pizza party day",
+                "context": "The team will have enjoyed a fun and successful pizza party at the office.",
+                "actor": "Entire office team",
+                "tense": "Future Perfect"
+            }
+        ],
+        
+        "contractNegotiationStory": [
+            {
+                "time": "Three months ago",
+                "event": "Initial client meeting",
+                "context": "Laura, a skilled negotiator, had first met with the challenging client to discuss potential terms.",
+                "actor": "Negotiator, Laura Smith",
+                "tense": "Past Perfect"
+            },
+            {
+                "time": "Two months ago",
+                "event": "Proposal submission",
+                "context": "She submitted a detailed contract proposal to the client.",
+                "actor": "Laura Smith",
+                "tense": "Past Simple"
+            },
+            {
+                "time": "Six weeks ago",
+                "event": "Negotiation phase",
+                "context": "Laura was frequently negotiating with the client, trying to reach an agreement.",
+                "actor": "Laura Smith",
+                "tense": "Past Continuous"
+            },
+            {
+                "time": "recently",
+                "event": "Client's initial approval",
+                "context": "The client has recently given initial approval to the contract's framework.",
+                "actor": "Difficult Client, Mr. Johnson",
+                "tense": "Present Perfect"
+            },
+            {
+                "time": "now",
+                "event": "Reviewing contract details",
+                "context": "Laura is currently reviewing the contract details to ensure accuracy and completeness.",
+                "actor": "Laura Smith",
+                "tense": "Present Continuous"
+            },
+            {
+                "time": "now",
+                "event": "Sending revised contract",
+                "context": "She sends the revised contract to the client for final approval.",
+                "actor": "Laura Smith",
+                "tense": "Present Simple"
+            },
+            {
+                "time": "Next week",
+                "event": "Expected finalization",
+                "context": "She will follow up with the client for the final contract signature.",
+                "actor": "Laura Smith",
+                "tense": "Future Simple"
+            },
+            {
+                "time": "Five weeks ago",
+                "event": "Ongoing discussions",
+                "context": "Laura had been in ongoing discussions with the client, addressing their concerns.",
+                "actor": "Laura Smith",
+                "tense": "Past Perfect Continuous"
+            },
+            {
+                "time": "Four weeks ago",
+                "event": "Adjusting contract terms",
+                "context": "She had been adjusting the contract terms to better align with the client's expectations.",
+                "actor": "Laura Smith",
+                "tense": "Past Perfect Continuous"
+            },
+            {
+                "time": "now",
+                "event": "Finalizing logistics",
+                "context": "Laura is currently finalizing the logistics for the contract signing ceremony.",
+                "actor": "Laura Smith",
+                "tense": "Present Continuous"
+            },
+            {
+                "time": "Tomorrow",
+                "event": "Preparing for meeting",
+                "context": "She will be preparing for a crucial meeting with the client to discuss the final contract.",
+                "actor": "Laura Smith",
+                "tense": "Future Continuous"
+            },
+            {
+                "time": "End of the month",
+                "event": "Contract completion",
+                "context": "Laura and the client will have successfully completed the contract negotiations by the end of the month.",
+                "actor": "Laura Smith and Mr. Johnson",
+                "tense": "Future Perfect"
+            }
+        ],
+        
 
             "mystery map": [
                 {
@@ -217,63 +361,62 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             ],
             
-
-
-            
-
-
-
-            // ... additional timelines can be added in this format
+       
         }
     };
     const timelineSelector = document.getElementById('timelineSelector');
     const timelineContainer = document.getElementById('timeline');
 
-    // Assuming 'data' is defined and it has a property 'timelines' which is an object
-    const sortedTimelineKeys = Object.keys(data.timelines).sort();
+    // Check if 'data.timelines' exists and is not null
+    if (data && data.timelines) {
+        // Get sorted timeline keys
+        const sortedTimelineKeys = Object.keys(data.timelines).sort();
 
-    // Populate the dropdown with sorted timelines
-    sortedTimelineKeys.forEach(timeline => {
-        let option = document.createElement('option');
-        option.value = timeline;
-        option.textContent = timeline;
-        timelineSelector.appendChild(option);
-    });
-
-    // Function to render a selected timeline
-    function renderTimeline(timelineKey) {
-        const timelineData = data.timelines[timelineKey];
-        timelineContainer.innerHTML = ''; // Clear existing timeline
-
-        timelineData.forEach((item, index) => {
-            const element = document.createElement('div');
-            element.classList.add('timeline-item');
-            element.innerHTML = `
-                <div><strong>Time:</strong> ${item.time}</div>
-                <div><strong>Event:</strong> ${item.event}</div>
-                <div><strong>Context:</strong> ${item.context}</div>
-                <div><strong>Actor:</strong> ${item.actor}</div>
-                <div><strong>Tense:</strong> ${item.tense}</div>
-            `;
-
-            // Add connector except for the last item
-            if (index < timelineData.length - 1) {
-                const connector = document.createElement('div');
-                connector.classList.add('connector');
-                element.appendChild(connector);
-            }
-
-            timelineContainer.appendChild(element);
+        // Populate the dropdown with sorted timelines
+        sortedTimelineKeys.forEach(timeline => {
+            let option = document.createElement('option');
+            option.value = timeline;
+            option.textContent = timeline;
+            timelineSelector.appendChild(option);
         });
-    }
 
-    // Event listener for dropdown change
-    timelineSelector.addEventListener('change', function() {
-        renderTimeline(this.value);
+// Function to render a selected timeline
+function renderTimeline(timelineKey) {
+    const timelineData = data.timelines[timelineKey];
+    timelineContainer.innerHTML = ''; // Clear existing timeline
+
+    timelineData.forEach((item, index) => {
+        const element = document.createElement('div');
+        element.classList.add('timeline-item');
+        element.innerHTML = `
+            <div><strong>Time:</strong> ${item.time}</div>
+            <div><strong>Event:</strong> ${item.event}</div>
+            <div><strong>Context:</strong> ${item.context}</div>
+            <div><strong>Actor:</strong> ${item.actor}</div>
+            ${item.tense ? `<div><strong>Tense:</strong> ${item.tense}</div>` : ''}
+        `;
+
+        // Add connector except for the last item
+        if (index < timelineData.length - 1) {
+            const connector = document.createElement('div');
+            connector.classList.add('connector');
+            element.appendChild(connector);
+        }
+
+        timelineContainer.appendChild(element);
     });
+}
 
-    // Initially render the first timeline
-    if (sortedTimelineKeys.length > 0) {
-        renderTimeline(sortedTimelineKeys[0]);
+        // Event listener for dropdown change
+        timelineSelector.addEventListener('change', function() {
+            renderTimeline(this.value);
+        });
+
+        // Initially render the first timeline
+        if (sortedTimelineKeys.length > 0) {
+            renderTimeline(sortedTimelineKeys[0]);
+        }
+    } else {
+        console.error("Data object or its 'timelines' property is not defined.");
     }
 });
