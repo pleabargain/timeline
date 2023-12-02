@@ -1,0 +1,80 @@
+.timeline {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #333;
+}
+
+.timeline-item {
+    background: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 45%;
+    position: relative;
+    margin-bottom: 40px; /* Increased margin to visually separate events */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    left: 55%;
+}
+
+.time, .event, .context, .actor {
+    margin: 5px 0;
+}
+
+.time {
+    font-weight: bold;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: -5px;
+}
+
+
+.timeline-item strong {
+    font-weight: bold;
+    color: #333; /* Optional: change the color if needed */
+    margin-right: 5px;
+}
+
+/* ... rest of your existing CSS */
+
+.timeline-item:nth-child(even) .circle {
+    right: auto;
+    left: -5px;
+}
+
+/* Adding connecting lines between events */
+.connector {
+    width: 2px;
+    background: #333;
+    position: absolute;
+    top: 25px;
+    bottom: -15px;
+    right: -5px;
+}
+
+.timeline-item:nth-child(even) .connector {
+    right: auto;
+    left: -5px;
+}
