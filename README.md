@@ -12,6 +12,9 @@ I thought about this idea in the shower. I wrote the JSON first (API first) then
 
 Start 'coding' to deploying working web app: 30 minutes
 
+## updates
+I built a GPT4 bot that will generate more stories for me. I need to automate that so I can pass a block of JSON to the API and have it generate more stories. That being said, I have noticed that not all tense output is accurate! :(
+
 ## Overview
 The Timeline Display Project is a web-based application designed to visually present a series of events in a chronological timeline format. This project is particularly useful for representing historical events, project milestones, personal achievements, or any sequence of events over time.
 

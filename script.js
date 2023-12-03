@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "actor": "The entire Thompson family"
                 }
             ],
-            "projectStory": [
+            "WorkProjectStory": [
                 {
                     "time": "two weeks ago",
                     "event": "Initial project briefing",
@@ -361,6 +361,314 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             ],
             
+            "BehaviorStory": [
+                {
+                    "time": "Several years ago",
+                    "event": "Initial realization",
+                    "context": "A young woman, intrigued by history, realized the unpredictability of the world and the importance of understanding people's behavior.",
+                    "actor": "Young Woman, Anna Thompson",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Two years ago",
+                    "event": "Observing patterns",
+                    "context": "She started observing behavioral patterns in her personal and professional life, noticing how people reacted to different situations.",
+                    "actor": "Anna Thompson",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Last year",
+                    "event": "Gaining insights",
+                    "context": "Anna gained insights into human behavior, realizing that actions often spoke louder than words.",
+                    "actor": "Anna Thompson",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Six months ago",
+                    "event": "Applying lessons",
+                    "context": "She began to apply these lessons, basing her decisions more on people's actions and less on external events.",
+                    "actor": "Anna Thompson",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Recently",
+                    "event": "Acknowledging complexity",
+                    "context": "Anna has come to appreciate the complexity of human behavior and its impact on decision-making.",
+                    "actor": "Anna Thompson",
+                    "tense": "Present Perfect"
+                },
+                {
+                    "time": "Now",
+                    "event": "Current practice",
+                    "context": "She is currently employing her understanding of behavior in her daily life, making more informed decisions.",
+                    "actor": "Anna Thompson",
+                    "tense": "Present Continuous"
+                },
+                {
+                    "time": "Tomorrow",
+                    "event": "Facing a challenge",
+                    "context": "She will face a challenging situation where she must rely on her understanding of behaviors rather than the event itself.",
+                    "actor": "Anna Thompson",
+                    "tense": "Future Simple"
+                },
+                {
+                    "time": "Next week",
+                    "event": "Reflecting on progress",
+                    "context": "Anna will be reflecting on how her approach to decision-making has evolved over time.",
+                    "actor": "Anna Thompson",
+                    "tense": "Future Continuous"
+                },
+                {
+                    "time": "In a month",
+                    "event": "Sharing knowledge",
+                    "context": "She will have shared her experiences and insights with others, helping them to understand the importance of focusing on behavior.",
+                    "actor": "Anna Thompson",
+                    "tense": "Future Perfect"
+                }
+            ],
+
+            "salesManagerStory": [
+                {
+                    "time": "Six months ago",
+                    "event": "Realization",
+                    "context": "Mike, a seasoned sales manager, had realized that despite having outstanding sales statistics, his team was not engaging potential clients effectively.",
+                    "actor": "Sales Manager, Mike Anderson",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "Five months ago",
+                    "event": "Research",
+                    "context": "He began researching different sales strategies and stumbled upon the concept that storytelling can be more compelling than statistics.",
+                    "actor": "Mike Anderson",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Four months ago",
+                    "event": "Training",
+                    "context": "Mike enrolled in a workshop on storytelling in sales, learning the art of crafting engaging narratives.",
+                    "actor": "Mike Anderson",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Three months ago",
+                    "event": "Implementing new strategies",
+                    "context": "He started integrating storytelling into his sales pitches, noticing a gradual increase in client interest.",
+                    "actor": "Mike Anderson",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Two months ago",
+                    "event": "First major success",
+                    "context": "Mike's had team landed a significant contract after a presentation that heavily relied on a compelling story about the product's impact.",
+                    "actor": "Sales Team",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "One month ago",
+                    "event": "Team training",
+                    "context": "Mike trained his sales team on using storytelling in their sales approach.",
+                    "actor": "Mike Anderson and Sales Team",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Three weeks ago",
+                    "event": "Increased sales",
+                    "context": "The team had been observing a noticeable increase in sales and client engagement.",
+                    "actor": "Sales Team",
+                    "tense": "Past Perfect Continuous"
+                },
+                {
+                    "time": "Two weeks ago",
+                    "event": "Client feedback",
+                    "context": "Clients had begun providing positive feedback, stating that the stories made the products more relatable and appealing.",
+                    "actor": "Clients",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "Last week",
+                    "event": "Recognition",
+                    "context": "Mike received recognition from the company's upper management for his innovative approach.",
+                    "actor": "Upper Management",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Yesterday",
+                    "event": "Reflection",
+                    "context": "Mike reflected on how storytelling transformed his approach to sales, making it more effective and personal.",
+                    "actor": "Mike Anderson",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Today",
+                    "event": "Continued practice",
+                    "context": "He continues to refine his storytelling skills, constantly seeking new ways to engage clients.",
+                    "actor": "Mike Anderson",
+                    "tense": "Present Simple"
+                },
+                {
+                    "time": "Tomorrow",
+                    "event": "Future plans",
+                    "context": "Mike will develop a training module for new sales recruits on storytelling in sales, hoping to impart this valuable skill.",
+                    "actor": "Mike Anderson",
+                    "tense": "Future Simple"
+                }
+            ],
+            
+            "elenaLearningStory": [
+                {
+                    "time": "Six months ago",
+                    "event": "Team challenges",
+                    "context": "Elena, a dedicated manager, had been noticing increasing challenges in team communication and morale.",
+                    "actor": "Manager, Elena Rodriguez",
+                    "tense": "Past Perfect Continuous"
+                },
+                {
+                    "time": "Five months ago",
+                    "event": "Seeking advice",
+                    "context": "She sought advice from mentors and read management books, trying to find solutions.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Four months ago",
+                    "event": "Implementing strategies",
+                    "context": "Elena implemented new team-building strategies, but they had limited success.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "Three months ago",
+                    "event": "Observing team dynamics",
+                    "context": "She has been observing her team closely, trying to understand the root causes of the issues.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Present Perfect Continuous"
+                },
+                {
+                    "time": "Two months ago",
+                    "event": "Realization",
+                    "context": "Elena realized that some lessons about team dynamics can't be taught; they must be experienced.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "One month ago",
+                    "event": "Encouraging self-reflection",
+                    "context": "She encouraged her team to reflect on their experiences and share insights with each other.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Three weeks ago",
+                    "event": "Facilitating open discussions",
+                    "context": "Elena is facilitating open discussions where team members can speak freely about their challenges.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Present Continuous"
+                },
+                {
+                    "time": "Two weeks ago",
+                    "event": "Gaining insights",
+                    "context": "The team had begun to gain insights from their shared experiences, improving their communication.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "Last week",
+                    "event": "Noticing improvements",
+                    "context": "Elena has noticed significant improvements in team morale and collaboration.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Present Perfect"
+                },
+                {
+                    "time": "Today",
+                    "event": "Continued growth",
+                    "context": "She continues to support her team's growth, understanding the value of experiential learning.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Present Simple"
+                },
+                {
+                    "time": "Tomorrow",
+                    "event": "Team meeting",
+                    "context": "Elena will be leading a team meeting to set new goals based on their recent learnings.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Future Continuous"
+                },
+                {
+                    "time": "Next month",
+                    "event": "Reflecting on progress",
+                    "context": "The team will have developed a stronger bond and better communication skills, reflecting Elena's successful management approach.",
+                    "actor": "Elena Rodriguez",
+                    "tense": "Future Perfect"
+                }
+            ],
+            
+            "Eliot's Lesson on Risk": [
+                {
+                "time": "Last week",
+                "event": "Initial consultation",
+                "context": "Eliot, a seasoned financial advisor, met with his new client, Mark, to discuss investment strategies.",
+                "actor": "Financial Advisor, Eliot Summers",
+                "tense": "Past Simple"
+                },
+                {
+                "time": "Five days ago",
+                "event": "Explaining market volatility",
+                "context": "He explained the concept of market volatility and its impact on investments.",
+                "actor": "Eliot Summers",
+                "tense": "Past Simple"
+                },
+                {
+                "time": "Three days ago",
+                "event": "Discussion on risk management",
+                "context": "Eliot was discussing various risk management techniques with Mark.",
+                "actor": "Eliot Summers",
+                "tense": "Past Continuous"
+                },
+                {
+                "time": "Yesterday",
+                "event": "Sharing historical market trends",
+                "context": "Eliot has shared examples of historical market trends to illustrate the unpredictability of risks.",
+                "actor": "Eliot Summers",
+                "tense": "Present Perfect"
+                },
+                {
+                "time": "Today",
+                "event": "Addressing client concerns",
+                "context": "Eliot is currently addressing Mark's concerns about potential risks in his investment portfolio.",
+                "actor": "Eliot Summers",
+                "tense": "Present Continuous"
+                },
+                {
+                "time": "Today",
+                "event": "Defining 'unseen risk'",
+                "context": "Eliot tells Mark that risk is something which you do not see coming, emphasizing the need for diversification.",
+                "actor": "Eliot Summers",
+                "tense": "Present Simple"
+                },
+                {
+                "time": "Tomorrow",
+                "event": "Reviewing investment options",
+                "context": "Eliot will review various investment options with Mark, keeping in mind the concept of unseen risks.",
+                "actor": "Eliot Summers",
+                "tense": "Future Simple"
+                },
+                {
+                "time": "Next week",
+                "event": "Portfolio adjustment",
+                "context": "Eliot will be adjusting Mark's portfolio to mitigate potential unseen risks.",
+                "actor": "Eliot Summers",
+                "tense": "Future Continuous"
+                },
+                {
+                "time": "In two weeks",
+                "event": "Follow-up meeting",
+                "context": "Eliot and Mark will have reviewed the changes in the portfolio and assessed their effectiveness in managing risk.",
+                "actor": "Eliot Summers",
+                "tense": "Future Perfect"
+                }
+                ],
+
+
+
        
         }
     };
