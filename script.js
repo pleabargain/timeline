@@ -1,8 +1,215 @@
 document.addEventListener('DOMContentLoaded', function() {
     const data = {
         "timelines": {
+Olga_gets_sick: [
+            {
+                "time": "Two weeks ago",
+                "event": "Olga falls ill",
+                "context": "Olga, a dedicated school teacher, had caught a severe cold and was feeling under the weather.",
+                "actor": "School Teacher, Olga Petrov",
+                "tense": "Past Perfect"
+            },
+            {
+                "time": "Last week",
+                "event": "Rest and recovery",
+                "context": "She spent the week resting at home, taking medication, and drinking plenty of fluids.",
+                "actor": "Olga Petrov",
+                "tense": "Past Simple"
+            },
+            {
+                "time": "Yesterday",
+                "event": "Feeling better",
+                "context": "Olga started feeling much better, with most of her symptoms having subsided.",
+                "actor": "Olga Petrov",
+                "tense": "Past Perfect"
+            },
+            {
+                "time": "Today",
+                "event": "Back to normal",
+                "context": "She is back to her energetic self, ready to return to teaching her beloved students.",
+                "actor": "Olga Petrov",
+                "tense": "Present Simple"
+            }
+        ],
 
-        "pizzaPartyStory": [
+            "Richard and value": [
+                {
+                    "time": "Fifteen years ago",
+                    "event": "Richard's first job",
+                    "context": "Richard, then a high school student, started his first part-time job, excited about earning his own money.",
+                    "actor": "Teenager, Richard Turner",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "Ten years ago",
+                    "event": "Starting college",
+                    "context": "He chose an expensive college, believing that the prestige and opportunities would outweigh the financial burden.",
+                    "actor": "College Student, Richard Turner",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Seven years ago",
+                    "event": "Encountering financial stress",
+                    "context": "Richard was struggling to balance his studies with part-time jobs to manage his growing student debt.",
+                    "actor": "Richard Turner",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Five years ago",
+                    "event": "Graduating with debt",
+                    "context": "He had graduated with honors but also with a substantial amount of debt, which started to weigh on him.",
+                    "actor": "Graduate, Richard Turner",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "Three years ago",
+                    "event": "Career advancement",
+                    "context": "Richard secured a well-paying job, yet he found that his time and personal life were heavily compromised.",
+                    "actor": "Professional, Richard Turner",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "One year ago",
+                    "event": "Realization of life's costs",
+                    "context": "He was beginning to realize that every choice, especially those involving money, comes with its own set of trade-offs.",
+                    "actor": "Richard Turner",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Six months ago",
+                    "event": "Reflecting on personal relationships",
+                    "context": "Richard noticed how his relentless pursuit of financial success had impacted his personal relationships.",
+                    "actor": "Richard Turner",
+                    "tense": "Past Perfect Continuous"
+                },
+                {
+                    "time": "Presently",
+                    "event": "Changing priorities",
+                    "context": "He is now reassessing his priorities, understanding that time and relationships also have a price, though not always monetary.",
+                    "actor": "Richard Turner",
+                    "tense": "Present Continuous"
+                },
+                {
+                    "time": "Now",
+                    "event": "Sharing experiences",
+                    "context": "Richard shares his experiences with others, emphasizing the importance of understanding the hidden costs of one's choices.",
+                    "actor": "Richard Turner",
+                    "tense": "Present Simple"
+                },
+                {
+                    "time": "In one year",
+                    "event": "Pursuing a balanced life",
+                    "context": "He will have started making choices that balance his professional ambitions with personal fulfillment.",
+                    "actor": "Richard Turner",
+                    "tense": "Future Perfect"
+                },
+                {
+                    "time": "In three years",
+                    "event": "Achieving a holistic success",
+                    "context": "Richard's life will reflect a more holistic form of success, encompassing not just financial stability but also personal happiness.",
+                    "actor": "Richard Turner",
+                    "tense": "Future Perfect"
+                },
+                {
+                    "time": "In five years",
+                    "event": "Mentoring others",
+                    "context": "He will be mentoring young professionals, guiding them to understand that every choice in life has a cost, whether visible or not.",
+                    "actor": "Richard Turner",
+                    "tense": "Future Perfect"
+                }
+            ],
+            
+          
+          
+            "Evelyn has a Story": [
+                {
+                    "time": "Ten years ago",
+                    "event": "Evelyn's career beginning",
+                    "context": "Evelyn, fresh out of college, had started her first job in a competitive tech industry, filled with optimism and determination.",
+                    "actor": "Young Professional, Evelyn Harris",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "Eight years ago",
+                    "event": "First major project",
+                    "context": "She led her first major project, facing numerous challenges but ultimately delivering impressive results.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Five years ago",
+                    "event": "Ongoing career development",
+                    "context": "Evelyn was steadily climbing the corporate ladder, yet she felt something was missing despite her accomplishments.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Three years ago",
+                    "event": "Self-reflection",
+                    "context": "She had started to question her career path and its alignment with her personal values and goals.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Past Perfect"
+                },
+                {
+                    "time": "One year ago",
+                    "event": "Pursuing further education",
+                    "context": "Evelyn decided to pursue an MBA to broaden her skills and gain new perspectives.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Past Simple"
+                },
+                {
+                    "time": "Six months ago",
+                    "event": "Realization of slow progress",
+                    "context": "She was realizing that true progress in both personal and professional growth often feels slow and is hard to see.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Past Continuous"
+                },
+                {
+                    "time": "Presently",
+                    "event": "Implementing new strategies",
+                    "context": "Evelyn is currently implementing new strategies in her career, focusing more on meaningful impacts rather than rapid advancement.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Present Continuous"
+                },
+                {
+                    "time": "Now",
+                    "event": "Mentoring others",
+                    "context": "She mentors younger professionals, sharing her insights on the importance of patience and persistence in career growth.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Present Simple"
+                },
+                {
+                    "time": "In six months",
+                    "event": "Launching a startup",
+                    "context": "Evelyn will be launching her own startup, focusing on sustainable technology, a field she's passionate about.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Future Continuous"
+                },
+                {
+                    "time": "In one year",
+                    "event": "Reflecting on growth",
+                    "context": "She will have taken a moment to reflect on her journey, recognizing the incremental but significant progress she's made.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Future Perfect"
+                },
+                {
+                    "time": "In five years",
+                    "event": "Establishing industry presence",
+                    "context": "Evelyn's startup will have become a key player in the tech industry, with her leadership and vision widely recognized.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Future Perfect"
+                },
+                {
+                    "time": "In ten years",
+                    "event": "Inspiring future generations",
+                    "context": "Evelyn will be seen as a role model, inspiring future generations to pursue meaningful progress in their careers and lives.",
+                    "actor": "Evelyn Harris",
+                    "tense": "Future Perfect"
+                }
+            ],
+            
+
+            "pizzaPartyStory": [
             {
                 "time": "Twelve weeks ago",
                 "event": "Idea conception",
